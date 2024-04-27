@@ -1,0 +1,374 @@
+﻿[
+    {
+      "customerId": "customer456",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001"
+      },
+      "orders": [
+        {
+          "orderId": "order123",
+          "orderDate": "2022-10-06T10:00:00Z",
+          "items": [
+            {
+              "productId": "product789",
+              "productName": "Widget",
+              "quantity": 2,
+              "price": 10.99
+            },
+            {
+              "productId": "product101",
+              "productName": "Gadget",
+              "quantity": 1,
+              "price": 29.99
+            }
+          ]
+        },
+        {
+          "orderId": "order234",
+          "orderDate": "2023-10-06T10:00:00Z",
+          "items": [
+            {
+              "productId": "product303",
+              "productName": "Dress",
+              "quantity": 3,
+              "price": 70.99
+            },
+            {
+              "productId": "product404",
+              "productName": "Shoes",
+              "quantity": 1,
+              "price": 140
+            },
+            {
+              "productId": "product788",
+              "productName": "Widget",
+              "quantity": 2,
+              "price": 30.99
+            }
+          ]
+        }
+      ],
+      "cart": [
+        {
+          "productId": "product789",
+          "productName": "Widget",
+          "quantity": 2,
+          "price": 10.99
+        },
+        {
+          "productId": "product101",
+          "productName": "Gadget",
+          "quantity": 1,
+          "price": 29.99
+        },
+        {
+          "productId": "product303",
+          "productName": "Dress",
+          "quantity": 3,
+          "price": 70.99
+        },
+        {
+          "productId": "product404",
+          "productName": "Shoes",
+          "quantity": 1,
+          "price": 140
+        },
+        {
+          "productId": "product505",
+          "productName": "Banana",
+          "quantity": 1,
+          "price": 1
+        }
+      ],
+      "id": "21ff33e3-f1ab-4d3e-803e-6b99f757a289",
+      "_rid": "Hyo5AKaGRdoBAAAAAAAAAA==",
+      "_self": "dbs/Hyo5AA==/colls/Hyo5AKaGRdo=/docs/Hyo5AKaGRdoBAAAAAAAAAA==/",
+      "_etag": "\"d800f949-0000-0700-0000-653d63970000\"",
+      "_attachments": "attachments/",
+      "_ts": 1698522007
+    },
+    {
+      "customerId": "customer1",
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "email": "alice.smith@example.com",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90001"
+      },
+      "orders": [
+        {
+          "orderId": "order1",
+          "orderDate": "2022-05-15T14:30:00Z",
+          "items": [
+            {
+              "productId": "product101",
+              "productName": "Gadget",
+              "quantity": 2,
+              "price": 25.99
+            },
+            {
+              "productId": "product202",
+              "productName": "Widget",
+              "quantity": 3,
+              "price": 15.99
+            }
+          ]
+        },
+        {
+          "orderId": "order2",
+          "orderDate": "2023-03-20T09:45:00Z",
+          "items": [
+            {
+              "productId": "product303",
+              "productName": "Dress",
+              "quantity": 2,
+              "price": 60.99
+            },
+            {
+              "productId": "product404",
+              "productName": "Shoes",
+              "quantity": 1,
+              "price": 120
+            }
+          ]
+        }
+      ],
+      "cart": [
+        {
+          "productId": "product303",
+          "productName": "Dress",
+          "quantity": 1,
+          "price": 60.99
+        },
+        {
+          "productId": "product505",
+          "productName": "Banana",
+          "quantity": 2,
+          "price": 1
+        }
+      ],
+      "id": "598f2442-c096-4183-9f1e-ad6610ca42cc",
+      "_rid": "Hyo5AKaGRdoCAAAAAAAAAA==",
+      "_self": "dbs/Hyo5AA==/colls/Hyo5AKaGRdo=/docs/Hyo5AKaGRdoCAAAAAAAAAA==/",
+      "_etag": "\"d800134b-0000-0700-0000-653d63a00000\"",
+      "_attachments": "attachments/",
+      "_ts": 1698522016
+    },
+    {
+      "customerId": "customer2",
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "email": "bob.johnson@example.com",
+      "address": {
+        "street": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zipCode": "60601"
+      },
+      "orders": [
+        {
+          "orderId": "order3",
+          "orderDate": "2022-08-10T11:15:00Z",
+          "items": [
+            {
+              "productId": "product404",
+              "productName": "Shoes",
+              "quantity": 1,
+              "price": 120
+            }
+          ]
+        },
+        {
+          "orderId": "order4",
+          "orderDate": "2023-07-05T16:20:00Z",
+          "items": [
+            {
+              "productId": "product101",
+              "productName": "Gadget",
+              "quantity": 1,
+              "price": 25.99
+            },
+            {
+              "productId": "product303",
+              "productName": "Dress",
+              "quantity": 3,
+              "price": 70.99
+            }
+          ]
+        }
+      ],
+      "cart": [
+        {
+          "productId": "product101",
+          "productName": "Gadget",
+          "quantity": 2,
+          "price": 25.99
+        }
+      ],
+      "id": "bb1bb271-58a6-4cdd-91c9-f4c12090104a",
+      "_rid": "Hyo5AKaGRdoDAAAAAAAAAA==",
+      "_self": "dbs/Hyo5AA==/colls/Hyo5AKaGRdo=/docs/Hyo5AKaGRdoDAAAAAAAAAA==/",
+      "_etag": "\"d800a14c-0000-0700-0000-653d63ac0000\"",
+      "_attachments": "attachments/",
+      "_ts": 1698522028
+    },
+    {
+      "customerId": "customer3",
+      "firstName": "Charlie",
+      "lastName": "Brown",
+      "email": "charlie.brown@example.com",
+      "address": {
+        "street": "567 Maple St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "94101"
+      },
+      "orders": [
+        {
+          "orderId": "order5",
+          "orderDate": "2023-01-25T13:45:00Z",
+          "items": [
+            {
+              "productId": "product505",
+              "productName": "Banana",
+              "quantity": 3,
+              "price": 1
+            }
+          ]
+        }
+      ],
+      "cart": [
+        {
+          "productId": "product101",
+          "productName": "Gadget",
+          "quantity": 1,
+          "price": 25.99
+        }
+      ],
+      "id": "a8e576f0-698d-4f68-bc61-b18295db2e08",
+      "_rid": "Hyo5AKaGRdoEAAAAAAAAAA==",
+      "_self": "dbs/Hyo5AA==/colls/Hyo5AKaGRdo=/docs/Hyo5AKaGRdoEAAAAAAAAAA==/",
+      "_etag": "\"d800f04f-0000-0700-0000-653d63c80000\"",
+      "_attachments": "attachments/",
+      "_ts": 1698522056
+    },
+    {
+      "customerId": "customer4",
+      "firstName": "David",
+      "lastName": "Lee",
+      "email": "david.lee@example.com",
+      "address": {
+        "street": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zipCode": "77001"
+      },
+      "orders": [
+        {
+          "orderId": "order6",
+          "orderDate": "2022-12-15T10:30:00Z",
+          "items": [
+            {
+              "productId": "product202",
+              "productName": "Widget",
+              "quantity": 2,
+              "price": 55.99
+            }
+          ]
+        },
+        {
+          "orderId": "order7",
+          "orderDate": "2023-10-10T08:00:00Z",
+          "items": [
+            {
+              "productId": "product404",
+              "productName": "Shoes",
+              "quantity": 1,
+              "price": 120
+            },
+            {
+              "productId": "product505",
+              "productName": "Banana",
+              "quantity": 2,
+              "price": 1
+            }
+          ]
+        }
+      ],
+      "cart": [],
+      "id": "ab8af7a8-3a2f-4226-a05d-eaa2b6dbc231",
+      "_rid": "Hyo5AKaGRdoFAAAAAAAAAA==",
+      "_self": "dbs/Hyo5AA==/colls/Hyo5AKaGRdo=/docs/Hyo5AKaGRdoFAAAAAAAAAA==/",
+      "_etag": "\"e9003038-0000-0700-0000-653ea3e90000\"",
+      "_attachments": "attachments/",
+      "_ts": 1698604009
+    },
+    {
+      "customerId": "customer5",
+      "firstName": "Eve",
+      "lastName": "Adams",
+      "email": "eve.adams@example.com",
+      "address": {
+        "street": "234 Cedar St",
+        "city": "Miami",
+        "state": "FL",
+        "zipCode": "33101"
+      },
+      "orders": [
+        {
+          "orderId": "order8",
+          "orderDate": "2023-02-15T14:00:00Z",
+          "items": [
+            {
+              "productId": "product101",
+              "productName": "Gadget",
+              "quantity": 2,
+              "price": 25.99
+            },
+            {
+              "productId": "product202",
+              "productName": "Widget",
+              "quantity": 3,
+              "price": 15.99
+            }
+          ]
+        }
+      ],
+      "cart": [
+        {
+          "productId": "product303",
+          "productName": "Dress",
+          "quantity": 1,
+          "price": 70.99
+        },
+        {
+          "productId": "product404",
+          "productName": "Shoes",
+          "quantity": 2,
+          "price": 120
+        },
+        {
+          "productId": "product505",
+          "productName": "Banana",
+          "quantity": 3,
+          "price": 1
+        }
+      ],
+      "id": "58062f88-f0ea-4281-accc-fd1fdedb7810",
+      "_rid": "Hyo5AKaGRdoGAAAAAAAAAA==",
+      "_self": "dbs/Hyo5AA==/colls/Hyo5AKaGRdo=/docs/Hyo5AKaGRdoGAAAAAAAAAA==/",
+      "_etag": "\"d800ae56-0000-0700-0000-653d64070000\"",
+      "_attachments": "attachments/",
+      "_ts": 1698522119
+    }
+  ]
+  

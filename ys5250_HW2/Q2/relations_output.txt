@@ -1,0 +1,14 @@
+B->D	
+A->C	
+A->D	
+H->G	
+A->M	
+Z->E	
+T->M	
+E->F	
+F->M	
+E->G	
+Z->M	
+E->H	
+F->T	
+Z->T	
